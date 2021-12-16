@@ -1,0 +1,77 @@
+{
+    "name": "Main",
+    "parameters": {
+        "d1": "VER",
+        "d2": "HAM",
+        "race_gp": "Abu Dhabi",
+        "race_year": 2021
+    },
+    "services": {},
+    "settings": {
+        "auto_eviction": false,
+        "data_passing_memory_size": "1GB"
+    },
+    "steps": {
+        "3462d3b0-5e07-4b6f-941a-f08ecda2ff65": {
+            "environment": "4ae9a956-eeed-4f51-96b3-b7aed4607dd4",
+            "file_path": "viz.ipynb",
+            "incoming_connections": [
+                "e15bacbb-3fb6-45e4-bc7e-a988be1dda76"
+            ],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    410.5,
+                    609
+                ]
+            },
+            "parameters": {},
+            "title": "Compare drivers",
+            "uuid": "3462d3b0-5e07-4b6f-941a-f08ecda2ff65"
+        },
+        "e15bacbb-3fb6-45e4-bc7e-a988be1dda76": {
+            "environment": "4ae9a956-eeed-4f51-96b3-b7aed4607dd4",
+            "file_path": "fetch-data.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    108.5,
+                    609
+                ]
+            },
+            "parameters": {},
+            "title": "Fetch driver telemetry",
+            "uuid": "e15bacbb-3fb6-45e4-bc7e-a988be1dda76"
+        },
+        "e1fd711e-5282-4121-aca1-f91903f571ff": {
+            "environment": "4ae9a956-eeed-4f51-96b3-b7aed4607dd4",
+            "file_path": "list-drivers.ipynb",
+            "incoming_connections": [],
+            "kernel": {
+                "display_name": "Python 3",
+                "name": "python"
+            },
+            "meta_data": {
+                "hidden": false,
+                "position": [
+                    106,
+                    382
+                ]
+            },
+            "parameters": {},
+            "title": "List drivers",
+            "uuid": "e1fd711e-5282-4121-aca1-f91903f571ff"
+        }
+    },
+    "uuid": "22a7ccb0-707f-4dd9-af6c-22f648dbdec6",
+    "version": "1.0.0"
+}
