@@ -1,10 +1,12 @@
-# formula-1-lap-comparison-orchest
+# Formula 1 fastest lap comparison in Orchest
 
-This pipeline uses the [fastf1](https://pypi.org/project/fastf1/) package to visualize.
+This pipeline uses the [fastf1](https://pypi.org/project/fastf1/) package to visualize the fastest laps of two drivers during any Grand Prix. Credits to the idea and code of lap comparison go to [Jasper](https://medium.com/towards-formula-1-analysis/analyzing-formula-1-data-using-python-2021-dutch-gp-hamilton-vs-bottas-145945eac278).
 
-Credits to the idea and code of lap comparison go to [Jasper](https://medium.com/towards-formula-1-analysis/analyzing-formula-1-data-using-python-2021-dutch-gp-hamilton-vs-bottas-145945eac278).
+### Explore in Orchest
 
-Example comparison:
+Explore this pipeline on Orchest Cloud for free: [https://cloud.orchest.io](https://cloud.orchest.io). 
+
+### Example comparison
 
 ![](image.png)
 
